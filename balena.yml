@@ -1,0 +1,22 @@
+name: unifi-controller
+type: sw.application
+description: >-
+  Unifi Controller
+assets:
+  repository:
+    type: blob.asset
+    data:
+      url: "https://github.com/aethernet/balena-unifi-controller"
+  logo:
+    type: blob.asset
+    data:
+      url: >-
+        https://raw.githubusercontent.com/aethernet/files/master/unifi-app-logo.jpg
+data:
+  defaultDeviceType: raspberrypi3-64
+  supportedDeviceTypes:
+    - raspberrypi4-64
+    - fincm3
+    - raspberrypi3-64
+    - raspberrypi400-64
+version: 1.0.0
