@@ -1,7 +1,8 @@
 name: unifi-controller
 type: sw.application
+joinable: false
 description: >-
-  Unifi Controller
+  Fastest way to deploy a Unifi Controller for your network on a Raspberry Pi
 assets:
   repository:
     type: blob.asset
@@ -11,7 +12,7 @@ assets:
     type: blob.asset
     data:
       url: >-
-        https://raw.githubusercontent.com/aethernet/files/master/unifi-app-logo.jpg
+        https://raw.githubusercontent.com/aethernet/balena-unifi-controller/master/unifi-app-logo.jpg
 data:
   defaultDeviceType: raspberrypi3-64
   supportedDeviceTypes:
